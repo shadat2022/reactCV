@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  
 }
 
 .App-logo {
@@ -14,14 +14,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .App-link {
@@ -35,4 +34,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+.cardsec{
+  height: 300px;
+  width: 400px;
+  background-color: rgb(215, 85, 85);
+  text-align: center;
+  border:1px solid black;
+  border-radius: 20px 0 20px;
+ 
+}
+.cardsec h2{
+  padding: 20px 0;
+  color: #61dafb;
+  
 }
